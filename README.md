@@ -18,7 +18,6 @@ Use to ask the user to select and item from a list or cancel if they decide not 
 
 ####Outputs
 Returns the selected object from the list or returns `None` if the user cancelled the selection.
-e.g. Colours.BLACK, Colours.RED
 
 ##confirm()
 ```
