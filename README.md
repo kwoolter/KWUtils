@@ -74,11 +74,11 @@ Add a specified `name` and `score` to the high score table.  Returns `True` if t
 ```
 def is_high_score(self, score):
 ```
-Check to see if a specified score makes it into the current high score table.  Returns `True` is the score is good enough to get into the current table.
+Check to see if a specified score makes it into the current high score table.  Returns `True` if the score is good enough to get into the current table.
 ```
 def save(self):
 ```
-Save the high score table to file called `name+".hst"`.
+Save the high score table to file called `name+".hst"` e.g. Zelda.hst
 ```
 def load(self):
 ```
